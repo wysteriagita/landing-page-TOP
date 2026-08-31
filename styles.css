@@ -1,0 +1,20 @@
+*{
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+}
+
+.footer{
+    color: #F9FAF8;
+    text-align: center;
+}
