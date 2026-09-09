@@ -1,20 +1,31 @@
-*{
-    background-color: #1F2937;
-    font-family: 'Roboto', sans-serif;;
-}
-
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  background-color: #1f2937;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-.footer{
-    color: #F9FAF8;
-    text-align: center;
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  font-size: 24px;
 }
